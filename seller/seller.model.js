@@ -6,6 +6,7 @@ const sellerSchema = new mongoose.Schema({
     type: String,
     minlength: 1,
     maxlength: 30,
+
     required: true,
     trim: true,
   },
